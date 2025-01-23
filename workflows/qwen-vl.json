@@ -1,0 +1,254 @@
+{
+  "last_node_id": 8,
+  "last_link_id": 11,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "QwenPackVLModelLoader",
+      "pos": [
+        2486.939208984375,
+        -100.03266143798828
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "model",
+          "type": "QWEN_VL_MODEL",
+          "links": [
+            10
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "QwenPackVLModelLoader"
+      },
+      "widgets_values": [
+        "Qwen2-VL-7B-Instruct"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "ShowText|pysssss",
+      "pos": [
+        3465.05517578125,
+        9.09997272491455
+      ],
+      "size": [
+        576.7000122070312,
+        328.1000061035156
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 11,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "The image features an animated character, a pig, dressed in a red outfit as it holds a wire near a computer terminal with a screen displaying icons. The setting appears to be an office or study area with a green wall."
+      ]
+    },
+    {
+      "id": 3,
+      "type": "LoadImage",
+      "pos": [
+        2472.966064453125,
+        45.37269592285156
+      ],
+      "size": [
+        315,
+        314
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            9
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "佩奇头像.png",
+        "image"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "QwenPackVQA",
+      "pos": [
+        2984.156982421875,
+        -3.390169858932495
+      ],
+      "size": [
+        400,
+        366
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "qwen_vl_model",
+          "type": "QWEN_VL_MODEL",
+          "link": 10
+        },
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 9
+        },
+        {
+          "name": "a",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "a"
+          },
+          "shape": 7
+        },
+        {
+          "name": "b",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "b"
+          },
+          "shape": 7
+        },
+        {
+          "name": "c",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "c"
+          },
+          "shape": 7
+        },
+        {
+          "name": "d",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "d"
+          },
+          "shape": 7
+        },
+        {
+          "name": "e",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "e"
+          },
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "answer",
+          "type": "STRING",
+          "links": [
+            11
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "QwenPackVQA"
+      },
+      "widgets_values": [
+        "describe this image, within 50 words",
+        671025444399169,
+        "randomize",
+        512,
+        512,
+        1,
+        50,
+        1,
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "links": [
+    [
+      9,
+      3,
+      0,
+      8,
+      1,
+      "IMAGE"
+    ],
+    [
+      10,
+      1,
+      0,
+      8,
+      0,
+      "QWEN_VL_MODEL"
+    ],
+    [
+      11,
+      8,
+      0,
+      5,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1.2100000000000002,
+      "offset": [
+        -2381.0365556370157,
+        230.28817850299902
+      ]
+    }
+  },
+  "version": 0.4
+}
