@@ -11,7 +11,7 @@
 * Officially not provided, comfy is mainly AIGC. Other options such as Olama or API are quite verbose
 
 ## 版本说明
-## 2025-1-23,发布首v0.1
+## 2025-1-23,发布v0.1
 ## 2025-1-28,v0.2
 * 删除了系统提示词输入栏
 * 14B测试需要，azw_nodes azw_nodes.py的60含，增加了一个cuda模式，需要手动修改，小白勿动。
