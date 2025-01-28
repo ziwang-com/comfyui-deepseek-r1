@@ -17,10 +17,11 @@
 * 14B测试需要，azw_nodes azw_nodes.py的60含，增加了一个cuda模式，需要手动修改，小白勿动。
 * 测试环境是3090-24G，各组14B以下模型测试正常。有问题，大部分应该是显存不够。
 * 增加一个《r1大模型智障问题测试数据集zw双语版》，方便大家play。
-*Removed the system prompt word input field
-*The 14B test requires the addition of a CUDA mode to azw_nodes' azw_nodes. py with a value of 60, which needs to be manually modified. Do not touch it, novices.
-*The testing environment is 3090-24G, and the models below 14B in each group are tested normally. There is a problem, most of it should be due to insufficient video memory.
-*Add a bilingual version of the "r1 Big Model Intellectual Disability Test Dataset ZW" for everyone to play.
+* 
+* Removed the system prompt word input field
+* The 14B test requires the addition of a CUDA mode to azw_nodes' azw_nodes. py with a value of 60, which needs to be manually modified. Do not touch it, novices.
+* The testing environment is 3090-24G, and the models below 14B in each group are tested normally. There is a problem, most of it should be due to insufficient video memory.
+* Add a bilingual version of the "r1 Big Model Intellectual Disability Test Dataset ZW" for everyone to play.
 
 ## 模型文件在：The model file is located at:
 * https://hf-mirror.com/deepseek-ai/DeepSeek-R1
