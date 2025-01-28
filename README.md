@@ -2,6 +2,25 @@
 * comfyui-deepseek-r1 节点插件.Comfyui-deepseek-r1 Node Plugin
 * 节点插件安装很简单，copy到comfyui的custom_nodes子目录下即可。
 * The installation of the node plugin is very simple, just copy it to the custom_nodes subdirectories of comfyui.
+* 
+
+## ps,2025-1-28
+* github搜了半天，好像是目前唯一支持comfyui本地化部署deepseek-r1的方案
+* 官方没有提供，comfy主要aigc。其他或者ollama 或者api ,都挺啰嗦
+* After searching on GitHub for a while, it seems to be the only solution that currently supports localized deployment of DeepSeek-r1 on Comfyui
+* Officially not provided, comfy is mainly AIGC. Other options such as Olama or API are quite verbose
+
+## 版本说明
+## 2025-1-23,发布首v0.1
+## 2025-1-28,v0.2
+* 删除了系统提示词输入栏
+* 14B测试需要，azw_nodes azw_nodes.py的60含，增加了一个cuda模式，需要手动修改，小白勿动。
+* 测试环境是3090-24G，各组14B以下模型测试正常。有问题，大部分应该是显存不够。
+* 增加一个《r1大模型智障问题测试数据集zw双语版》，方便大家play。
+*Removed the system prompt word input field
+*The 14B test requires the addition of a CUDA mode to azw_nodes' azw_nodes. py with a value of 60, which needs to be manually modified. Do not touch it, novices.
+*The testing environment is 3090-24G, and the models below 14B in each group are tested normally. There is a problem, most of it should be due to insufficient video memory.
+*Add a bilingual version of the "r1 Big Model Intellectual Disability Test Dataset ZW" for everyone to play.
 
 ## 模型文件在：The model file is located at:
 * https://hf-mirror.com/deepseek-ai/DeepSeek-R1
