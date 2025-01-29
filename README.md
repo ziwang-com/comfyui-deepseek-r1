@@ -6,8 +6,8 @@
 ## 2025-1-29：智王发布deepseek-r1懒人包，解压即用
 * 下载地址见文末，【智王AI资源中心】
 * 相关网址：
-* https://github.xyz/ziwang-com/comfyui-deepseek-r1
-* https://github.xyz/ziwang-com/zwai-lab
+* https://github.com/ziwang-com/comfyui-deepseek-r1
+* https://github.com/ziwang-com/zwai-lab
 * #
 * ComfyUI-r1节点原本是zwai自用的，发布这么久，很奇怪，到目前还是git上面，还是只有我们这个r1插件能够本地化部署。
 * 其他都是ollama 和API模式。
@@ -15,15 +15,12 @@
 * comfy很简单，美工都是小白，总人数多，已经是AIGC准工业平台。
 * 这次是r1官方没有comfy，不然ollama没机会。
 * 混元 sd flux官方全部内置comfy。
-* nv-sana，虽然也不兼容，官方comfyui-sana插件，因为不好用，连带sana这种能够高速直出4k的模型，一个月了都没有多少人熟悉。
+* nv-sana，官方comfyui-sana插件，因为不好用，连带sana这种能够高速直出4k的模型，现在都没有多少人熟悉。
 * deepseek发布的Janus-Pro模型，发布次日，也就是今天，git上面就出现了近10个comfy-Janus插件。
 * 可能还是r1的兼容性问题。
 
 ##2025-1-29: Zhiwang releases Deepseek-r1 Lazy Package, easy to decompress and use
 * The download link can be found at the end of the article, 【 Zhiwang AI Resource Center 】
-* Related website:
-*  https://github.xyz/ziwang-com/comfyui-deepseek-r1
-*  https://github.xyz/ziwang-com/zwai-lab
 * #
 * The ComfyUI-r1 node was originally intended for ZWAI's own use, and it's strange that it has been released for so long. So far, it's still on Git, and only our r1 plugin can be deployed locally.
 * The rest are in the ollama and API modes.
@@ -38,7 +35,6 @@
 * ps：
 * 过了小一周，r1大火开始蔓延，本地化部署案例也出了不少。
 * 不过，好像zwai的deepseek-r1插件方案，仍然是目前唯一支持comfyui的。
-* 这个，可能是因为官方没有提供，comfy侧重aigc，美工居多，码农少。
 * 插件地址：
 * https://github.com/ziwang-com/comfyui-deepseek-r1
 * 参见： 全球首发deepseek-r1插件ComfyUI
@@ -65,10 +61,7 @@
 * comfyui-deepseek-r1说明文档
 * The zwai lab Zhiwang AI Workshop documentation in the doc directory,
 * Comfyui-deepseek-r1 documentation
-* 相关网址：Related website:
-* https://github.xyz/ziwang-com/comfyui-deepseek-r1
-* https://github.xyz/ziwang-com/zwai-lab
-* 
+
 * 官方以下版本模型测试ok，其他自己测试：
 * The following official versions of the model have been tested OK, please test others yourself:
 * DeepSeek-R1-Distill-Llama-8B
@@ -165,6 +158,8 @@
 * Github项目网址：https://github.com/ziwang-com/zwai-lab
 * 百度网盘-链接:  https://pan.baidu.com/s/1EH19ablXVLYQP1f-IaPS-Q?pwd=hiks  提取码:hiks 
 * 阿里云盘-链接:  https://www.alipan.com/s/pZ5qewjCec8  提取码: fs64
+* huggingface：  https://huggingface.co/zwpython/comfyui-deepseek-r1-portable
+* hf-mirror：    https://hf-mirror.com/zwpython/comfyui-deepseek-r1-portable
 * #
 * QQ社群，都是千人大群，欢迎加入，共同学习。
 * QQ群文件，和网盘，有海量AI资源/模型/文档，提供免费下载。
@@ -175,6 +170,8 @@
 * Github: https://github.com/ziwang-com/zwai-lab
 * Baidu Cloud Drive - Link: https://pan.baidu.com/s/1EH19ablXVLYQP1f-IaPS-Q?pwd=hiks Extract code: hiks
 * Alibaba Cloud Drive - Link: https://www.alipan.com/s/pZ5qewjCec8 Extract code: fs64
+* huggingface：  https://huggingface.co/zwpython/comfyui-deepseek-r1-portable
+* hf-mirror：    https://hf-mirror.com/zwpython/comfyui-deepseek-r1-portable
 * #
 * QQ community is a large group of thousands of people, welcome to join and learn together.
 * QQ group files, online disks/official account, and massive AI resources/models/documents are available for free download. Scan to join for free.
