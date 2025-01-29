@@ -15,12 +15,16 @@
 ## 2025-1-28,v0.2
 * 删除了系统提示词输入栏
 * 14B测试需要，azw_nodes azw_nodes.py的60含，增加了一个cuda模式，需要手动修改，小白勿动。
-* 测试环境是3090-24G，各组14B以下模型测试正常。有问题，大部分应该是显存不够。
+* 测试环境是3090-i9-64G-3090-24G。
+* 1.5B-14B模型测试正常。有问题，大部分应该是显存不够。
+* R1-7B大约10-15s答复一个问题，14B要150s。
 * 增加一个《r1大模型智障问题测试数据集zw双语版》，方便大家play。
 * 
 * Removed the system prompt word input field
 * The 14B test requires the addition of a CUDA mode to azw_nodes' azw_nodes. py with a value of 60, which needs to be manually modified. Do not touch it, novices.
-* The testing environment is 3090-24G, and the models below 14B in each group are tested normally. There is a problem, most of it should be due to insufficient video memory.
+* The testing environment is 3090-i9-64G-3090-24G.
+* The 1.5B-14B model test is normal. There is a problem, most of it should be due to insufficient video memory.
+* R1-7B takes approximately 10-15 seconds to answer a question, while 14B takes 150 seconds.
 * Add a bilingual version of the "r1 Big Model Intellectual Disability Test Dataset ZW" for everyone to play.
 
 ## 模型文件在：The model file is located at:
