@@ -1,8 +1,8 @@
 [project]
-name = "deepseek-r1"
-description = "Comfyui-deepseek-r1 Node Plugin"
+name = "comfyui-deepseek-r1"
+description = "Nodes related to deepseek-r1"
 version = "1.0.0"
-license = {file = "LICENSE"}
+license = { file = "LICENSE" }
 dependencies = ["transformers>=4.37.0"]
 
 [project.urls]
@@ -10,6 +10,7 @@ Repository = "https://github.com/ziwang-com/comfyui-deepseek-r1"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
-DisplayName = "comfyui-deepseek-r1"
+PublisherId = "zwai"
+DisplayName = "ComfyUI-DeepSeek-R1"
 Icon = ""
+

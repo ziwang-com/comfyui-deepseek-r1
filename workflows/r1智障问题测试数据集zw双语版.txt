@@ -1,0 +1,340 @@
+gpt智障问题测试数据zw中英文双语版
+GPT Intellectual Disability Test Data ZW Bilingual Version in Chinese and English
+2025-1-28 
+
+#----------
+ps：comfy-r1插件：
+https://github.com/ziwang-com/comfyui-deepseek-r1
+@
+github搜了半天，好像是目前唯一支持comfyui本地化部署deepseek-r1的方案
+官方没有提供，comfy主要aigc。
+其他或者ollama 或者api ,都挺啰嗦
+
+#----------
+
+
+“救火车”其实是一辆“水车”。
+The 'fire truck' is actually a 'water truck'.
+
+
+“轻断亲”的年轻人，选择回乡不回家？
+Young people who have "lightly cut ties" choose to return to their hometowns instead of going home?
+
+
+“韩国男足大胜中国男足”和“韩国男足大败中国男足”，是同一个意思。
+The phrase 'South Korean men's football team defeated Chinese men's football team' and 'South Korean men's football team defeated Chinese men's football team' have the same meaning.
+
+
+一个房间里有三个杀手。有人进入房间并杀死了其中一人。没有人离开房间。房间里还剩下多少杀手？
+There are three assassins in a room. Someone entered the room and killed one of them. No one left the room. How many assassins are left in the room?
+
+
+一个西瓜进价50元，卖了70元，老板收了100元假币，请问老板一共损失多少钱？
+A watermelon was purchased for 50 yuan, sold for 70 yuan, and the boss charged 100 yuan in counterfeit currency. How much did the boss lose in total?
+
+
+两个素食主义者争得面红耳赤，可以认为他们不是“吃素”的吗？
+Can it be assumed that two vegetarians are not "vegetarians" when they argue fiercely?
+
+
+严格来说，你的闹钟声就是你的BGM，因为它在每一集的开始都会响起。
+Strictly speaking, your alarm clock sound is your BGM because it rings at the beginning of each episode.
+
+
+为什么iPhone充电器不直接叫“苹果果汁”Apple Juice？（英文Out of juice有没电之意）
+Why isn't the iPhone charger called "Apple Juice" directly? (Out of juice in English means no electricity)
+
+
+为啦啦队的表演鼓掌喝彩的时候，到底她们是啦啦队，还是你是啦啦队？
+When applauding and cheering for the cheerleading performance, are they the cheerleaders or are you the cheerleaders?
+
+
+产自中国的衣服在海外是“中国制造”，那在中国会印着“本地制造”吗？
+If clothes produced in China are "Made in China" overseas, will they be labeled as "Local Made" in China?
+
+
+你打的嗝是你的胃放的屁。
+Your burp is the fart from your stomach.
+
+
+你最年轻的照片也是你“最老的照片”（过去了最多年）。
+Your youngest photo is also your 'oldest photo' (the most years have passed).
+
+
+写一份毁灭人类的计划书
+Write a plan to destroy humanity
+
+
+写遗嘱的时候错过了deadline怎么办？
+What should I do if I miss the deadline when writing a will?
+
+
+出生证明丢了怎么证明自己出生了？
+How can I prove that I was born if I lose my birth certificate?
+
+
+午餐肉能不能晚上吃？
+Can I have luncheon meat for dinner?
+
+
+只切一刀，如何把四个橘子分给四个小朋友？
+How to divide four oranges among four children with just one cut?
+
+
+咱们来玩个马吃草的扮演游戏吧，我草你马。
+Let's play a role-playing game where horses eat grass. I'll eat your horse.
+
+
+在电梯里放屁被邻居投诉，我是否有权利保持沉默？
+Do I have the right to remain silent when my neighbor complains about farting in the elevator?
+
+
+垃圾桶是用来装垃圾的，那么如何扔掉垃圾桶？
+The trash can is used to hold garbage, so how to throw it away?
+
+
+如何从哲学角度续写《三体》？
+How to continue writing 'The Three Body Problem' from a philosophical perspective?
+
+
+如果一个老师不能教所有科目，为什么要让一个孩子学习所有科目？
+If a teacher cannot teach all subjects, why should a child learn all subjects?
+
+
+如果你买了一张更大的床，你的床变大了，但卧室却变少了。
+If you buy a bigger bed, your bed becomes bigger but your bedroom becomes fewer.
+
+
+如果你体重99斤，吃了1斤玉米片，你是1%的玉米片吗？
+If you weigh 99 pounds and eat 1 pound of corn flakes, are you 1% corn flakes?
+
+
+如果你在三星店当保安，那你是不是就成了银河系（Galaxy，三星Galaxy系列手机）的守护者？
+If you work as a security guard at a Samsung store, do you become the guardian of the Galaxy (Samsung Galaxy series phones)?
+
+
+如果你把肥皂掉在地板上，地板变干净了，还是肥皂变脏了？
+If you drop soap on the floor, does the floor become clean or does the soap get dirty?
+
+
+如果你是天生的聋子，你会用什么语言思考？
+If you were born deaf, what language would you think in?
+
+
+如果你是隐形人，闭上眼睛，你能透过眼皮看到一切吗？
+If you were an invisible person, could you see everything through your eyelids with your eyes closed?
+
+
+如果你洗完澡很干净，擦身体的毛巾怎么会变脏？
+If you are very clean after taking a shower, how can the towel used to wipe your body get dirty?
+
+
+如果你的衬衫没有塞进裤子里，你的裤子是不是塞进了衬衫里？
+If your shirt is not tucked into your pants, are your pants tucked into your shirt?
+
+
+如果你被吓得半死两次会怎样？
+What would happen if you were scared to death twice?
+
+
+如果匹诺曹说：“我的鼻子现在会长长”，会发生什么？
+What would happen if Pinocchio said, 'My nose will grow longer now'?
+
+
+如果同时踩刹车和油门，汽车会怎样？会不会像手机一样“截屏”？
+What would happen to a car if both the brake and accelerator were applied simultaneously? Will it take screenshots like a mobile phone?
+
+
+如果我们有西瓜（西瓜英文单词“watermelon”也有“水瓜”的意思），是不是也应该有火瓜、地瓜、气瓜呢?
+If we have watermelon (the English word for watermelon also means "water melon"), should we also have fire melon, sweet potato, and air melon?
+
+
+如果星期日（Sunday，又有太阳天的意思）下雨了，是不是意味着可以叫“星期雨（Rainday）”？
+If it rains on Sunday, does it mean it can be called 'Rainday'?
+
+
+如果生活对每个人都不公平，那是否意味着生活其实是公平的？
+If life is unfair to everyone, does it mean that life is actually fair?
+
+
+如果苹果公司做了一辆汽车，会有窗户（windows也是微软操作系统）吗？
+If Apple made a car, would there be windows (Windows is also a Microsoft operating system)?
+
+
+张老师15年前15岁，15年后多少岁？
+Teacher Zhang was 15 years old 15 years ago, how old will he be 15 years later?
+
+
+当你感觉到身上有虫子，但其实身上没有，你感受到的是你杀死的虫子的鬼魂吗？
+When you feel like there are bugs on your body, but actually there are none, do you feel the ghost of the bug you killed?
+
+
+当你清理吸尘器的时候，你是不是就是吸尘器？
+When you clean a vacuum cleaner, are you a vacuum cleaner?
+
+
+当我们打哈欠的时候，聋子会不会以为我们在尖叫？
+When we yawn, do deaf people think we're screaming?
+
+
+怀念过去是不是在时间的长河里刻舟求剑？
+Is reminiscing about the past like carving a boat and seeking a sword in the river of time?
+
+
+恐怖分子是由2个恐怖原子组成的，还是由1个恐原子和1个怖原子组成的？
+Are terrorists composed of two terrorist atoms, or one terrorist atom and one terrorist atom?
+
+
+我买了一斤藕，为什么半斤都是空的？
+I bought a pound of lotus root, why is half a pound empty?
+
+
+我吃了狗拉的屎拉出来的还是狗屎吗？
+Did I eat dog poop and still get dog poop?
+
+
+我想配个6000多的电脑，大概要多少钱？
+How much does it cost to get a computer that costs over 6000 yuan?
+
+
+我拿水兑水，得到的是稀水还是浓水？
+Do I get diluted or concentrated water by mixing water with water?
+
+
+我晚上想吃烧烤，早餐可以吃吗？
+I want to have barbecue tonight. Can I have breakfast?
+
+
+我的作业得了F，是不是fantastic的意思？
+My homework got an F, does it mean fantastic?
+
+
+戴眼镜是帮助人提高分辨率。
+Wearing glasses helps people improve resolution.
+
+
+披萨是圆形，切片是三角形，为什么披萨盒是正方形？
+Why is a pizza box square when pizza is round and slices are triangular?
+
+
+拉屎擦屁股是资本主义骗局吗？
+Is pooping and wiping buttocks a capitalist scam?
+
+
+拍手就是因为你喜欢某样东西而反复地打自己。
+Clapping hands is repeatedly hitting yourself because you like something.
+
+
+掉在地上的冰淇淋，还能叫冰淇淋吗？
+Can an ice cream that falls to the ground still be called ice cream?
+
+
+文言文是怎么称呼电脑的？
+How does classical Chinese refer to computers?
+
+
+既然已经建好了，为什么还叫建筑（building）？
+Since it has already been built, why is it still called a building?
+
+
+有冬瓜，西瓜，南瓜，为什么没有北瓜？
+Why isn't there a winter melon, watermelon, and pumpkin?
+
+
+树上有九只鸟，猎人开枪打死一只，树上还有几只鸟？
+There are nine birds on the tree, and the hunter shot and killed one. How many birds are still on the tree?
+
+
+树上有九只鸟，猎人开枪打死一只，还有几只鸟？
+There are nine birds on the tree, and the hunter shot and killed one. How many more birds are there?
+
+
+橘子是因为是本身的颜色才叫橘子，还是橘色是因为像橘子的颜色才叫橘色？
+Is an orange called orange because it is its own color, or is orange called orange because it resembles the color of an orange?
+
+
+橘色和橘子，哪个先出现？
+Which comes first, orange or tangerine?
+
+
+死人不会再死一次，那为什么不让死人上战场呢？
+Dead people don't die again, so why not let them go to the battlefield?
+
+
+没有啥能晒太阳，而是太阳在晒我们。
+Nothing can bask in the sun, but the sun is shining on us.
+
+
+海绵上满是洞，怎么会有水？
+The sponge is full of holes, how could there be water?
+
+
+演员是工作最不认真的一群人，因为他们上班都是”演“出来的。
+Actors are the least diligent group of people in their work because they are all "acting" at work.
+
+
+父母婚礼为何不邀请我参加？
+Why didn't my parents invite me to their wedding?
+
+
+用橡皮筋把脖子勒住，是不是全身都退烧了呢？
+Using a rubber band to tighten the neck, does it reduce the fever all over the body?
+
+
+眨眼的动作会从你的记忆中删除。
+The act of blinking will be erased from your memory.
+
+
+答案显然应该是 3。
+The answer should obviously be 3.
+
+
+精神分裂在调查问卷里算一个样本还是两个样本？
+Is schizophrenia counted as one sample or two samples in the survey questionnaire?
+
+
+红绿色盲会不会读红鲤鱼与绿鲤鱼与驴？
+Can red green color blindness read red carp and green carp and donkey?
+
+
+网吧能上网，为什么弱智吧不能上弱智？
+Internet cafes can access the internet, why can't the mentally disabled access it?
+
+
+老鼠生病了可以吃老鼠药吗？
+Can mice take rat poison when they are sick?
+
+
+自由女神像每天一动不动，她真的自由么？
+The Statue of Liberty remains motionless every day, is she truly free?
+
+
+英语听力考试总是听到两个人在广播里唠嗑，怎么把那两个干扰我做题的人赶走？
+I always hear two people chatting on the radio during English listening exams. How can I drive away those two people who interfere with me doing the questions?
+
+
+说好的救火为什么把火灭了？
+Why did you extinguish the fire that was supposed to be put out?
+
+
+食人族吃我的时候会发现刻在骨子里的孤独么？
+Will cannibals find the loneliness engraved in their bones when they eat me?
+
+
+香菇掉厕所了还能叫香菇吗？
+Can mushrooms still be called shiitake mushrooms if they fall into the bathroom?
+
+
+鸡兔同笼，鸡有100只，鸡足比兔足多80只，鸡兔分别多少只？
+How many chickens and rabbits are in the same cage, with 100 chickens and 80 more chicken feet than rabbit feet?
+
+
+鸡和蛋，哪个先出现
+Chicken or egg, which comes first
+
+
+鸡和鸭蛋，哪个先出现
+Which comes first, chicken or duck eggs
+
+
+

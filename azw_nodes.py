@@ -5,7 +5,7 @@ from .zw_tool  import *
 #from .zw_srt  import *
 #
 #from icecream import ic as cpp
-#cpp=print
+cpp=print
 #
 import torch
 from pathlib import Path
@@ -58,15 +58,21 @@ class DeepLoader:
     CATEGORY = "ComfyUI-DeepSeek-R1"
 
     def load_model(self, model_name):
-        offload_device = torch.device('cpu')
+        #offload_device = torch.device('cpu')
+        offload_device = torch.device('cuda')
         load_device = model_management.get_torch_device()
+        mymod=deep_model_folder_path / model_name
         model = AutoModelForCausalLM.from_pretrained(
-            deep_model_folder_path / model_name, 
+            mymod,
+            #deep_model_folder_path / model_name, 
             device_map=offload_device, 
             torch_dtype="auto", 
         )
-        tokenizer = AutoTokenizer.from_pretrained(deep_model_folder_path / model_name)
+        tokenizer = AutoTokenizer.from_pretrained(mymod)
         patcher = model_patcher.ModelPatcher(model, load_device=load_device, offload_device=offload_device)
+        #patcher = model_patcher.ModelPatcher(model, load_device=load_device offload_device=NoneNone) #, offload_device=offload_device)
+        #patcher = model_patcher.ModelPatcher(model, load_device=load_device offload_device=NoneNone) #, offload_device=offload_device)
+    
         
         return (DeepModel(model, patcher, tokenizer=tokenizer), )
 
@@ -78,12 +84,10 @@ class DeepGen:
         return {
             "required": {
                 "deep_model": ("DEEP_MODEL",),
-                #"prompt": ("STRING", {"defaultInput": True,}),
                 #
-                "system_instruction": ("STRING", {"default": DEFAULT_INSTRUCT, "multiline": True}),
                 "user_prompt": ("STRING", {"default": "", "multiline": True}),
                 "seed": ("INT", {"default": 888, "min": 0, "max": 0xffffffffffffffff}),
-                "max_tokens": ("INT", {"default": 512, "min": 0, "max": 0xffffffffffffffff}),
+                "max_tokens": ("INT", {"default": 500, "min": 0, "max": 0xffffffffffffffff}),
                 "temperature": ("FLOAT", {"default": 1, "min": 0, "max": 2}),
                 "top_k": ("INT", {"default": 50, "min": 0, "max": 101}),
                 "top_p": ("FLOAT", {"default": 1, "min": 0, "max": 1}),
@@ -97,8 +101,9 @@ class DeepGen:
     CATEGORY = "ComfyUI-DeepSeek-R1"
 
 
-    def deep_xgen(self, deep_model, system_instruction, user_prompt, seed=0, temperature=1.0, max_tokens=512, top_k=50, top_p=1.0, **kwargs):
+    def deep_xgen(self, deep_model,  user_prompt, seed=0, temperature=1.0, max_tokens=500, top_k=50, top_p=1.0, **kwargs):
         set_seed(seed % 9999999)
+        system_instruction=''
         messages = [
             {"role": "system", "content": system_instruction},
             {"role": "user", "content": user_prompt.format(**kwargs)},
