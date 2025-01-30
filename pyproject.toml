@@ -7,9 +7,10 @@ dependencies = ["transformers>=4.37.0"]
 
 [project.urls]
 Repository = "https://github.com/ziwang-com/comfyui-deepseek-r1"
-
 #  Used by Comfy Registry https://comfyregistry.org
+
 [tool.comfy]
 PublisherId = "zwai"
 DisplayName = "ComfyUI-DeepSeek-R1"
 Icon = ""
+
