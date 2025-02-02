@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-deepseek-r1"
 description = "Nodes related to deepseek-r1"
-version = "1.0.0"
+version = "1.0.2"
 license = { file = "LICENSE" }
 dependencies = ["transformers>=4.37.0"]
 
